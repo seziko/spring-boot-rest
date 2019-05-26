@@ -12,9 +12,9 @@ public class Kitap extends BaseEntity{
 
 
 
-    @Column(name = "adi")
+    @Column(name = "adi",nullable = false,length = 20)
     private String adi;
-    @Column(name = "yazari")
+    @Column(name = "yazari",nullable = false)
     private String yazari;
 
     @OneToOne(cascade = CascadeType.ALL)
