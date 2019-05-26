@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface KategoriDao extends JpaRepository<Kategori,Long>{
+public interface KategoriDAO extends JpaRepository<Kategori,Long>{
 
 
 
